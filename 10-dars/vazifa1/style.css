@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 700px;
+    height: 500px;
+    background-color: lightblue;
+    position: relative;
+}
+.danger-line{
+    width: 100%;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+.basket{
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 25px);
+}
+
+.fruit{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+}
